@@ -647,6 +647,32 @@ input, select, textarea {
 
 		}
 
+		.box.excerpt {
+			position: relative;
+			overflow: hidden;
+		}
+	
+			.box.excerpt header {
+				margin: 0 0 1em 0;
+			}
+	
+			.box.excerpt .image, .box.excerpt p {
+				margin-bottom: 0;
+			}
+
+			.box.article-list article {
+				border-bottom: solid 1px #dbdbdb;
+				margin: 0 0 2.75em 0;
+				padding: 0 0 2.75em 0;
+			}
+		
+				.box.article-list article:last-child {
+					border-bottom: 0;
+					margin-bottom: 0;
+					padding-bottom: 0;
+				}
+			
+
 /* Button */
 
 	input[type="button"],
@@ -2269,6 +2295,14 @@ input, select, textarea {
 		background-position: top left, center center;
 	}
 
+/* three */
+
+	#three {
+		background: url("images/overlay.png"), url("../../images/one.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+
 /* Contact */
 
 	#contact {
@@ -2310,3 +2344,4 @@ input, select, textarea {
 			}
 
 		}
+
